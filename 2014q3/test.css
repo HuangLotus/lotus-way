@@ -1,0 +1,46 @@
+/*button{
+	border:1px solid #ccc;
+	cursor:pointer;
+  display:block;
+  margin:auto;
+  position:relative;
+  top:100px;
+}*/
+
+html {font-size: 100%;}
+body {font-size: 1em;}
+#wrap {
+	font-size: 0.875em;/*1 ÷ 16 × 14= 0.875em值*/
+	width: 14.2857em;/*1 ÷ 14 × 200 = 14.2857em值*/
+	height: 7.1429em;/*1 ÷ 14 × 100 = 7.1429em值*/
+	border: 0.357em solid red;/*1 ÷ 14 × 5 = 0.357em值*/
+	margin: 1.071em;/*1 ÷ 14 × 15 = 1.071em值*/
+	padding: 0.714em;/*1 ÷ 14 × 10 = 0.714em值*/
+	line-height: 1.2857em;/*1 ÷ 14 × 18 = 1.2857em值*/
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+*{
+			margin: 0;
+			padding: 0;
+		}
+		#left {
+			background-color: green;
+			float: left;
+			width: 220px;
+			margin-right: -100%;
+		}
+		
+		#content {
+			float: left;
+			width: 100%;
+		}
+		
+		#contentInner {
+			margin-left: 220px;/*==等于左边栏宽度值==*/
+			background-color: orange;
+		}
